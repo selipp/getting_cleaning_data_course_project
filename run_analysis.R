@@ -55,5 +55,5 @@ relevant_data[,2] <- activity_labels[relevant_data[,2]] # change the values in t
 # 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 library(dplyr) # load the dplyr package
 tidy_data <- relevant_data %>% group_by(subject, activity) %>% summarise_each(funs(mean)) # group the data by "subject" and "activity" and run the mean function on all other columns; store results in new data.frame
-
+tidy_data # retrun tidy data.set
 

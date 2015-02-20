@@ -3,8 +3,8 @@ Code Book For tidy_data.txt
 Variables
 =================
 
-subject: The number of the test subject.
-activity: The tested activity.
+- subject: The number of the test subject.
+- activity: The tested activity.
 
 Feature Selection 
 =================
